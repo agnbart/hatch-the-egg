@@ -1,0 +1,72 @@
+:root {
+    --dark: #1C1C1C;
+    --yellow: #F8D26D;
+    --timber: #DFA46D;
+    --plum: #724D50;
+    --light-blue: #CDEDFC;
+    --white: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--yellow);
+}
+
+#game {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 362px;
+    height: 477px;
+    margin: 5% auto;
+    border: 10px solid var(--timber);
+    background: var(--light-blue);
+    box-shadow: 0 0 0 20px #e7f6fd inset;
+}
+
+.text {
+    display: inline-block;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 56px;
+}
+
+#counter {
+    margin-bottom: 56px;
+}
+
+#result {
+    margin-top: 26px;
+}
+
+#egg {
+    height: 120px;
+    cursor: pointer;
+}
+
+#action-btn {
+    display: flex;
+    width: 292px;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: VT323, monospace;
+    border: 6px solid var(--timber, #dfa46d);
+    background: var(--yellow, #f8d26d);
+    margin: 0 auto;
+    /* Button shadow */
+    box-shadow: 0px 7px 0px 0px #724d50;
+}
+
+.hidden {
+    display: none !important;
+}
+

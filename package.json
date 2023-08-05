@@ -1,0 +1,22 @@
+{
+  "name": "hatch-the-egg",
+  "version": "0.0.1",
+  "description": "You will be building a simple game using TypeScript and OOP. It's going to be about hatching a Tamagotchi's egg!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nerdbord/hatch-the-egg.git"
+  },
+  "author": "Nerdbord",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nerdbord/hatch-the-egg/issues"
+  },
+  "homepage": "https://github.com/nerdbord/hatch-the-egg#readme",
+  "dependencies": {
+    "prettier": "^3.0.0"
+  }
+}
